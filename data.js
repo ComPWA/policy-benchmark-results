@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783864618528,
+  "lastUpdate": 1783864881696,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -31,6 +31,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01727454353703041",
             "extra": "mean: 2.373508083599998 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2c0eaab37aa83a42b53449b658a2f9c728ee5b9",
+          "message": "BREAK: return changes instead of raising (#628)\n\n* BREAK: rename `PrecommitError` to `PolicyError`\n* DX: assert on returned changes instead of `pytest.raises`\n* DX: collect and print modifications at the CLI boundary\n* ENH: load `pyproject.toml` once and thread it through checks\n* MAINT: remove `Executor` class",
+          "timestamp": "2026-07-12T16:00:53+02:00",
+          "tree_id": "b30b04983948001812595f4a00d53aa1b4061ad4",
+          "url": "https://github.com/ComPWA/policy/commit/e2c0eaab37aa83a42b53449b658a2f9c728ee5b9"
+        },
+        "date": 1783864881427,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3163013871040008,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01405104309672543",
+            "extra": "mean: 759.7044338000003 msec\nrounds: 5"
           }
         ]
       }
