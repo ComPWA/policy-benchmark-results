@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783959386141,
+  "lastUpdate": 1783969798525,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -93,6 +93,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0057228530515319774",
             "extra": "mean: 715.8759321999994 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf37396492becbd2feddffbecbaa6efc2b0cd9a0",
+          "message": "ENH: normalize pre-commit repo spacing (#651)\n\n* ENH: move `poe benchmark` to test group\n* ENH: sort `ty` arguments\n* MAINT: upgrade lock files",
+          "timestamp": "2026-07-13T21:09:24+02:00",
+          "tree_id": "29af77a1fade2aeef6f069fa63d0f19364a8329e",
+          "url": "https://github.com/ComPWA/policy/commit/bf37396492becbd2feddffbecbaa6efc2b0cd9a0"
+        },
+        "date": 1783969798060,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3680172518401166,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0075022743339073225",
+            "extra": "mean: 730.9849335999985 msec\nrounds: 5"
           }
         ]
       }
