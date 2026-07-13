@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783864881696,
+  "lastUpdate": 1783959386141,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -62,6 +62,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01405104309672543",
             "extra": "mean: 759.7044338000003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7cf996a539129919c309f0ed511cdd8188776775",
+          "message": "ENH: manage file resources through `Session` (#649)\n\n* BREAK: require Session in resource helpers\n* DX: ignore Codex configuration\n* DX: run style before remaining CI tasks\n* MAINT: organize tests with pytest-describe",
+          "timestamp": "2026-07-13T18:15:55+02:00",
+          "tree_id": "5aad2071dbe95b285f495598df34d7b67f0289a0",
+          "url": "https://github.com/ComPWA/policy/commit/7cf996a539129919c309f0ed511cdd8188776775"
+        },
+        "date": 1783959385695,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3968900964820015,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0057228530515319774",
+            "extra": "mean: 715.8759321999994 msec\nrounds: 5"
           }
         ]
       }
