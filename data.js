@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783969798525,
+  "lastUpdate": 1784018192815,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -124,6 +124,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0075022743339073225",
             "extra": "mean: 730.9849335999985 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9232f3590cb93fbb9b9766c83cc8ece6a5d2216b",
+          "message": "ENH: derive `check-dev-files` trigger files (#652)\n\n* ENH: auto-fix pre-commit hook definition drift in self-check\n* ENH: dispatch hooks with decorator",
+          "timestamp": "2026-07-14T10:36:01+02:00",
+          "tree_id": "cf3ce83d1f35800176b16dc1f9a6406dae5bdfad",
+          "url": "https://github.com/ComPWA/policy/commit/9232f3590cb93fbb9b9766c83cc8ece6a5d2216b"
+        },
+        "date": 1784018192147,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.848503662644743,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0069964063894217485",
+            "extra": "mean: 540.9781004000024 msec\nrounds: 5"
           }
         ]
       }
