@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784118240383,
+  "lastUpdate": 1784147921411,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -217,6 +217,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009480490055423908",
             "extra": "mean: 691.7639745999977 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "827077dbf2be7b86b52f57d361edbd2b7119d77e",
+          "message": "ENH: run `poe upgrade` over all `uv.lock` files (#656)",
+          "timestamp": "2026-07-15T22:38:06+02:00",
+          "tree_id": "25c117bd4dc7085f55a464f1554cda56f344d805",
+          "url": "https://github.com/ComPWA/policy/commit/827077dbf2be7b86b52f57d361edbd2b7119d77e"
+        },
+        "date": 1784147920919,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.2623077020643658,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00527488215279901",
+            "extra": "mean: 792.1998719999962 msec\nrounds: 5"
           }
         ]
       }
