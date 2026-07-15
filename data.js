@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784019175357,
+  "lastUpdate": 1784118240383,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -186,6 +186,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005204299925724642",
             "extra": "mean: 710.5542671999984 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04c19ad92fa5c34a0366c35fbf0c40f5bbe06b5a",
+          "message": "FEAT: add Tombi as default TOML formatter (#654)\n\n* BEHAVIOR: treat Tombi warnings as errors by default\n* BREAK: remove `Frequency` type alias\n* DOC: embed docstrings in JSON schema\n* ENH: define options through `Literal` instead of `Enum`\n* ENH: do not enforce non-multiline array\n* ENH: exclude lock files from being formatted with Tombi\n* ENH: run `check-dev-files` before formatters\n* ENH: standardize formatting with `to_toml_array()`\n* FEAT: generate JSON schema for `[tool.compwa.policy]`\n* FEAT: implement `--toml-formatter` argument\n* FEAT: implement `tombi-lint` pre-commit hook\n* FEAT: implement warnings as errors for Tombi\n* FIX: remove outdated Sphinx target remappings\n* FIX: run `tombi-format` on GitHub CI\n* MAINT: remove `more_itertools`\n* MAINT: remove `PackageManagerChoice` from `conda` module\n* MAINT: rename `builtins-ignorelist` to `ignorelist`",
+          "timestamp": "2026-07-15T14:23:30+02:00",
+          "tree_id": "c90d73f638a02e165fec61ae955bf97217f453b1",
+          "url": "https://github.com/ComPWA/policy/commit/04c19ad92fa5c34a0366c35fbf0c40f5bbe06b5a"
+        },
+        "date": 1784118239971,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4455797594522541,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009480490055423908",
+            "extra": "mean: 691.7639745999977 msec\nrounds: 5"
           }
         ]
       }
