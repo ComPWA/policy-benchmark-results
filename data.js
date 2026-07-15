@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784147921411,
+  "lastUpdate": 1784152752796,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -248,6 +248,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00527488215279901",
             "extra": "mean: 792.1998719999962 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "22f54d1ac4a317baf97ea96274fad2fad73c73c0",
+          "message": "FEAT: implement `pixi run upgrade` task (#658)\n\n* FEAT: add Julia upgrade helper to `poe upgrade` task\n* MAINT: extract upgrade commands into `repo.upgrade` module",
+          "timestamp": "2026-07-15T23:58:45+02:00",
+          "tree_id": "da347d75bf50962d96afd1a64006847c8d1faddd",
+          "url": "https://github.com/ComPWA/policy/commit/22f54d1ac4a317baf97ea96274fad2fad73c73c0"
+        },
+        "date": 1784152752622,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3033703776392982,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007950089182055805",
+            "extra": "mean: 767.24162000001 msec\nrounds: 5"
           }
         ]
       }
