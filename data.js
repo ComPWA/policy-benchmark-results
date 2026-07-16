@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784216224895,
+  "lastUpdate": 1784216359213,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -372,6 +372,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011229849800128632",
             "extra": "mean: 820.2906638000002 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dbc92260e33857748cdbfa1e257e981865713b6a",
+          "message": "ENH: exclude certain dependencies for Jupyter (#660)\n\n* MAINT: sort keys in JSON schema alphabetically",
+          "timestamp": "2026-07-16T17:38:50+02:00",
+          "tree_id": "21ffef92442847a783c5490efabaa80d1e2c3dd8",
+          "url": "https://github.com/ComPWA/policy/commit/dbc92260e33857748cdbfa1e257e981865713b6a"
+        },
+        "date": 1784216359049,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.2990652674337309,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00873978292970227",
+            "extra": "mean: 769.7842634000011 msec\nrounds: 5"
           }
         ]
       }
