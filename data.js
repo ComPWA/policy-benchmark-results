@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784203282975,
+  "lastUpdate": 1784216224895,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -341,6 +341,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006342915842124159",
             "extra": "mean: 701.1356181999986 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e50fdca2d700d1e337b24463b2f96928d5f3880",
+          "message": "FIX: remove obsolete license classifiers (#666)",
+          "timestamp": "2026-07-16T17:36:30+02:00",
+          "tree_id": "0a10157d2f5037400b43cbfce8379db4d24caa65",
+          "url": "https://github.com/ComPWA/policy/commit/7e50fdca2d700d1e337b24463b2f96928d5f3880"
+        },
+        "date": 1784216224418,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.2190800701881641,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011229849800128632",
+            "extra": "mean: 820.2906638000002 msec\nrounds: 5"
           }
         ]
       }
