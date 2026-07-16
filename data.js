@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784152752796,
+  "lastUpdate": 1784203095900,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -279,6 +279,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007950089182055805",
             "extra": "mean: 767.24162000001 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1394f38830f5d67eb2b61d56e26dd7b7412589be",
+          "message": "FIX: make TOML updates idempotent (#664)\n\n* FIX: do not sort TOML tables on export",
+          "timestamp": "2026-07-16T13:57:46+02:00",
+          "tree_id": "455bb07f8a2decaf07a747526a698c827b9a5fbc",
+          "url": "https://github.com/ComPWA/policy/commit/1394f38830f5d67eb2b61d56e26dd7b7412589be"
+        },
+        "date": 1784203095521,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6982471258683058,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007959393181731557",
+            "extra": "mean: 588.8424510000008 msec\nrounds: 5"
           }
         ]
       }
