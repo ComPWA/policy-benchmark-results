@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784216359213,
+  "lastUpdate": 1784281692465,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -403,6 +403,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00873978292970227",
             "extra": "mean: 769.7842634000011 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eeabd21efcee28b47e0f98dbcbb278e918932aee",
+          "message": "FEAT: implement `policy bootstrap` (#668)\n\n* DX: disable `ms-python.vscode-python-envs` extension\n* MAINT: promote `_characterization` module to public `characterization`",
+          "timestamp": "2026-07-17T11:47:41+02:00",
+          "tree_id": "2ed7f241dc081abfbff708ee0468b36f80a076cb",
+          "url": "https://github.com/ComPWA/policy/commit/eeabd21efcee28b47e0f98dbcbb278e918932aee"
+        },
+        "date": 1784281692022,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5733323361007554,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010031945098892778",
+            "extra": "mean: 635.5936232000005 msec\nrounds: 5"
           }
         ]
       }
