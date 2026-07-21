@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784662873963,
+  "lastUpdate": 1784666003753,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -496,6 +496,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021089610942680394",
             "extra": "mean: 663.887590200001 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3a24795984f3e5111fd81fbcea9f01453be0bf1c",
+          "message": "DOC: automatically generate TOML example (#673)\n\n* DOC: remove fullscreen button\n* DOC: split `check-dev-files` page into subpages\n* ENH: embed option documentation as tooltips",
+          "timestamp": "2026-07-21T22:32:55+02:00",
+          "tree_id": "29fff500388739f3c56b520540916188fecc5a15",
+          "url": "https://github.com/ComPWA/policy/commit/3a24795984f3e5111fd81fbcea9f01453be0bf1c"
+        },
+        "date": 1784666003270,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6655335142780758,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008783578135326292",
+            "extra": "mean: 600.4082124000064 msec\nrounds: 5"
           }
         ]
       }
