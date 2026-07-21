@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784283695615,
+  "lastUpdate": 1784662873963,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -465,6 +465,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.017980253606855186",
             "extra": "mean: 610.6498030000012 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a41ca0d5ae548902cecdf51e1285079c3ddf369",
+          "message": "FIX: preserve custom Tombi schemas (#671)",
+          "timestamp": "2026-07-21T21:40:40+02:00",
+          "tree_id": "1fc02321c533778a5dd6d8bedd21a0be418cbb20",
+          "url": "https://github.com/ComPWA/policy/commit/9a41ca0d5ae548902cecdf51e1285079c3ddf369"
+        },
+        "date": 1784662873544,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5062790971868336,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021089610942680394",
+            "extra": "mean: 663.887590200001 msec\nrounds: 5"
           }
         ]
       }
