@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1784666003753,
+  "lastUpdate": 1785068934318,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -527,6 +527,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.008783578135326292",
             "extra": "mean: 600.4082124000064 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9d3b180d911abc1aa8576c98c7fbe6d8708e4fa",
+          "message": "FIX: keep `repos` round-trippable when sorting (#675)\n\n* ENH: print link to ComPWA/policy config documentation\n* FIX: key pre-commit repo separator on the repo index",
+          "timestamp": "2026-07-26T14:28:24+02:00",
+          "tree_id": "7549b7743ec67906fa2ca6989dfe3f6b9d303dbe",
+          "url": "https://github.com/ComPWA/policy/commit/c9d3b180d911abc1aa8576c98c7fbe6d8708e4fa"
+        },
+        "date": 1785068933954,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6807938928485662,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00960884181565183",
+            "extra": "mean: 594.9569452000005 msec\nrounds: 5"
           }
         ]
       }
