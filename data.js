@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785068934318,
+  "lastUpdate": 1785072812350,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -558,6 +558,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00960884181565183",
             "extra": "mean: 594.9569452000005 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6bed59e6083d5124757f2ace42118a34d711a137",
+          "message": "BEHAVIOR: use Ruff rule names, not codes (#677)\n\n* BEHAVIOR: ignore `builtin-variable-shadowing` in `docs/conf.py`\n* MAINT: migrate `noqa` comments to `ruff: ignore` syntax",
+          "timestamp": "2026-07-26T15:33:06+02:00",
+          "tree_id": "d499d6d77af479dd7952c812fa93f11685232cf5",
+          "url": "https://github.com/ComPWA/policy/commit/6bed59e6083d5124757f2ace42118a34d711a137"
+        },
+        "date": 1785072811869,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.886755128541839,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007731052287813556",
+            "extra": "mean: 530.0104846000024 msec\nrounds: 5"
           }
         ]
       }
