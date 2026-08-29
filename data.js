@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785424278431,
+  "lastUpdate": 1788029770928,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -620,6 +620,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005023862911760982",
             "extra": "mean: 621.1490754000124 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "de3155f252663b0d7a2ed223b46b421b96cb9463",
+          "message": "FEAT: use `lychee` for `linkcheck` in Quarto repos (#681)\n\n* FEAT: update `linkcheck` job for Quarto projects\n\n* FIX: use correct shell command\n\n* ENH: install `lychee-bin` into dev dependencies\n\n* ENH: implement `lychee` for Pixi, too\n\n* FIX: expand Poe task shorthand notations before reading\n\n* FIX: look up dependencies in the group that runs the task\n\n* FIX: match lychee in commands defined as an array\n\n* FIX: only configure lychee for Quarto-documented repositories\n\n* MAINT: drop unreachable comparison in linkcheck policy",
+          "timestamp": "2026-08-29T20:55:44+02:00",
+          "tree_id": "c14caf6190d4e0c5671841c8946aec603d96c46d",
+          "url": "https://github.com/ComPWA/policy/commit/de3155f252663b0d7a2ed223b46b421b96cb9463"
+        },
+        "date": 1788029770404,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.0793885841663293,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010014212111308082",
+            "extra": "mean: 480.9105943999981 msec\nrounds: 5"
           }
         ]
       }
