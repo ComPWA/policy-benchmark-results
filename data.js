@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788180722802,
+  "lastUpdate": 1788203350704,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -682,6 +682,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006286012117212973",
             "extra": "mean: 471.4954010000042 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0963a93916e6472f1318cae2906ec8c5beb1ee3",
+          "message": "FIX: resolve generated action references to self (#688)\n\n* BEHAVIOR: add `repository` argument to workflow writers\n* DX: pin GitHub Actions workflows to their release SHAs\n* FEAT: add `resolve_self_references()` helper\n* FIX: quote `coverage-python-version` in CI workflow",
+          "timestamp": "2026-08-31T21:08:43+02:00",
+          "tree_id": "963d464f3afef26fafd6b1344cd312b7ea3babf8",
+          "url": "https://github.com/ComPWA/policy/commit/b0963a93916e6472f1318cae2906ec8c5beb1ee3"
+        },
+        "date": 1788203350078,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6468271289019811,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00830728288743238",
+            "extra": "mean: 607.2282769999958 msec\nrounds: 5"
           }
         ]
       }
