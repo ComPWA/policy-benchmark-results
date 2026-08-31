@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788029770928,
+  "lastUpdate": 1788180722802,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -651,6 +651,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010014212111308082",
             "extra": "mean: 480.9105943999981 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "667b75c964c466ff5410ce08595825476dc0da45",
+          "message": "ENH: make release tag prefix configurable (#686)\n\n* MAINT: use Jinja for release drafter",
+          "timestamp": "2026-08-31T14:51:35+02:00",
+          "tree_id": "4b18d0326131ddd3a14b3b7621283fcd5458e30d",
+          "url": "https://github.com/ComPWA/policy/commit/667b75c964c466ff5410ce08595825476dc0da45"
+        },
+        "date": 1788180722220,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.120911461446028,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006286012117212973",
+            "extra": "mean: 471.4954010000042 msec\nrounds: 5"
           }
         ]
       }
