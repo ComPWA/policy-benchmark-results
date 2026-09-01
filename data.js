@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788203350704,
+  "lastUpdate": 1788257618038,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -713,6 +713,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00830728288743238",
             "extra": "mean: 607.2282769999958 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a4c37be1089e0b9f9846c8d163fac3438c5b43e",
+          "message": "FEAT: configurable release name template (#690)",
+          "timestamp": "2026-09-01T12:13:12+02:00",
+          "tree_id": "fbd2d0e2c55f296e6f83261dfb9421475b3ec0cc",
+          "url": "https://github.com/ComPWA/policy/commit/2a4c37be1089e0b9f9846c8d163fac3438c5b43e"
+        },
+        "date": 1788257617616,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.8841380812343245,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00581517519852993",
+            "extra": "mean: 530.7466634000023 msec\nrounds: 5"
           }
         ]
       }
