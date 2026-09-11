@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789131481963,
+  "lastUpdate": 1789135723689,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -837,6 +837,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005555899566434148",
             "extra": "mean: 464.54395519997433 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6a472332047fb0ae6407e63a494bfce5cb4ee2e",
+          "message": "ENH: switch to `prek` (#695)\n\n* DOC: unwrap hard-wrapped Markdown under docs\n* ENH: run `prek autoupdate` without `-j` flag\n* FIX: keep upgrade task field ordering consistent\n* MAINT: remove redundant `.gitignore` exceptions",
+          "timestamp": "2026-09-11T16:08:08+02:00",
+          "tree_id": "724c574d566f17e5cefb1dd67c7fdd5635242abe",
+          "url": "https://github.com/ComPWA/policy/commit/f6a472332047fb0ae6407e63a494bfce5cb4ee2e"
+        },
+        "date": 1789135723089,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.137435665842227,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007148180100936989",
+            "extra": "mean: 467.85033859999885 msec\nrounds: 5"
           }
         ]
       }
