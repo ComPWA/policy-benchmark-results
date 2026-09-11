@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788263911341,
+  "lastUpdate": 1789131481963,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -806,6 +806,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.005619167600980751",
             "extra": "mean: 631.1508611999998 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "84b4a60858e9a37111c2b6d39adc22bfa3a17789",
+          "message": "MAINT: upgrade lock files (#696)\n\n* DOC: fix pre-commit configuration filename in CLI help\n* MAINT: adapt type annotations and lint settings to updated tools",
+          "timestamp": "2026-09-11T14:57:34+02:00",
+          "tree_id": "0a7b7d592d4fb43ca7eb641d83902fdbe5d3c6af",
+          "url": "https://github.com/ComPWA/policy/commit/84b4a60858e9a37111c2b6d39adc22bfa3a17789"
+        },
+        "date": 1789131481347,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.152648826459329,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005555899566434148",
+            "extra": "mean: 464.54395519997433 msec\nrounds: 5"
           }
         ]
       }
