@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789135723689,
+  "lastUpdate": 1789462434842,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -868,6 +868,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007148180100936989",
             "extra": "mean: 467.85033859999885 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4a1020244ef1cabbdd3e65b2e4e6dffce9d4312f",
+          "message": "ENH: migrate `style` task to `prek` (#701)",
+          "timestamp": "2026-09-15T10:53:25+02:00",
+          "tree_id": "db990620b6dc171e21f4084c363057dff7dc04ba",
+          "url": "https://github.com/ComPWA/policy/commit/4a1020244ef1cabbdd3e65b2e4e6dffce9d4312f"
+        },
+        "date": 1789462433961,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.315292210918384,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004557328842385588",
+            "extra": "mean: 431.9109248000018 msec\nrounds: 5"
           }
         ]
       }
