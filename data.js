@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791552612570,
+  "lastUpdate": 1791553427406,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1023,6 +1023,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015256695305897142",
             "extra": "mean: 684.9434820000013 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b9cd213deccebc84c395805fbba23effad2ce27",
+          "message": "BEHAVIOR: preserve Pixi dependency constraints (#719)",
+          "timestamp": "2026-10-09T15:43:17+02:00",
+          "tree_id": "c1f963391364de3053a13aa84a3859202fef59c3",
+          "url": "https://github.com/ComPWA/policy/commit/2b9cd213deccebc84c395805fbba23effad2ce27"
+        },
+        "date": 1791553426884,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.0586957868537823,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00880540569780036",
+            "extra": "mean: 485.7444244000021 msec\nrounds: 5"
           }
         ]
       }
