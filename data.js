@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791549363136,
+  "lastUpdate": 1791550948258,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -961,6 +961,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007811804667533894",
             "extra": "mean: 677.4266349999948 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7c8480633142ad5f039fec543fd3b4a86ff6bd13",
+          "message": "BEHAVIOR: support Python 3.15 (#717)\n\n* DX: test this package on Python 3.15",
+          "timestamp": "2026-10-09T15:02:01+02:00",
+          "tree_id": "bb9813b9ce542c749ada52bbba3187efc5650bec",
+          "url": "https://github.com/ComPWA/policy/commit/7c8480633142ad5f039fec543fd3b4a86ff6bd13"
+        },
+        "date": 1791550947939,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.3587549412997046,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012719074522235583",
+            "extra": "mean: 423.9524770000003 msec\nrounds: 5"
           }
         ]
       }
