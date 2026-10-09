@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791554994774,
+  "lastUpdate": 1791556607110,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1085,6 +1085,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0265672087195446",
             "extra": "mean: 606.8769664000001 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79811ca34041c30ca10f6ac53f61aa47dd4891c8",
+          "message": "BEHAVIOR: configure lychee through TOML (#721)",
+          "timestamp": "2026-10-09T16:36:03+02:00",
+          "tree_id": "bac8cf805e9d903843bd4440a7222d1e9c531777",
+          "url": "https://github.com/ComPWA/policy/commit/79811ca34041c30ca10f6ac53f61aa47dd4891c8"
+        },
+        "date": 1791556606655,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.634466866331874,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011481379071452495",
+            "extra": "mean: 611.8202948000004 msec\nrounds: 5"
           }
         ]
       }
