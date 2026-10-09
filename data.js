@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791553427406,
+  "lastUpdate": 1791554994774,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1054,6 +1054,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00880540569780036",
             "extra": "mean: 485.7444244000021 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34b1e0de847ccd22b5ee26ea0a29596992b26422",
+          "message": "BEHAVIOR: use conda-forge `lychee` in Pixi (#720)",
+          "timestamp": "2026-10-09T16:09:24+02:00",
+          "tree_id": "f9204e735610be4f270baf5013c9530d462e06ba",
+          "url": "https://github.com/ComPWA/policy/commit/34b1e0de847ccd22b5ee26ea0a29596992b26422"
+        },
+        "date": 1791554994328,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6477804486995271,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0265672087195446",
+            "extra": "mean: 606.8769664000001 msec\nrounds: 5"
           }
         ]
       }
