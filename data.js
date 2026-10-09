@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791566754320,
+  "lastUpdate": 1791567633701,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1271,6 +1271,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007915009236057547",
             "extra": "mean: 576.9858967999937 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a9cef042ca9f3148b20de89f9e28e5aa91f3e478",
+          "message": "FIX: stop creating Poe config for `pixi+uv` repos (#730)\n\n* BEHAVIOR: configure `pixi+uv` link checking in Pixi if Poe is not used",
+          "timestamp": "2026-10-09T19:40:02+02:00",
+          "tree_id": "ecaed18ca59be5748501a2be557b703544a87656",
+          "url": "https://github.com/ComPWA/policy/commit/a9cef042ca9f3148b20de89f9e28e5aa91f3e478"
+        },
+        "date": 1791567633293,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5597169565792133,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01629101277860649",
+            "extra": "mean: 641.1419686000016 msec\nrounds: 5"
           }
         ]
       }
