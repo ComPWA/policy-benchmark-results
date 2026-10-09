@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791556607110,
+  "lastUpdate": 1791557380164,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1116,6 +1116,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011481379071452495",
             "extra": "mean: 611.8202948000004 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b7623825cf4acc8b3698212f13b174c499cc60de",
+          "message": "BEHAVIOR: use Poe linkcheck for `pixi+uv` (#722)",
+          "timestamp": "2026-10-09T16:49:11+02:00",
+          "tree_id": "ec074fddbd9d1a49dfb024d65e6f2bc878a4f4ff",
+          "url": "https://github.com/ComPWA/policy/commit/b7623825cf4acc8b3698212f13b174c499cc60de"
+        },
+        "date": 1791557379830,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5206554862114396,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013991535991232457",
+            "extra": "mean: 657.611147999998 msec\nrounds: 5"
           }
         ]
       }
