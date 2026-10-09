@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791559058238,
+  "lastUpdate": 1791561740034,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1178,6 +1178,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014295080074767418",
             "extra": "mean: 660.7809201999999 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a3bdaf2435adedf2e1cb8e9dcc2ba3d19f1979e4",
+          "message": "BREAK: drop support for Python 3.10 (#724)\n\n* BEHAVIOR: run macOS test job on Python 3.11 by default\n* MAINT: import `Self` and `NotRequired` from `typing`",
+          "timestamp": "2026-10-09T18:01:48+02:00",
+          "tree_id": "351bde86b4d2466c2d9e25502a793eabe1314b0a",
+          "url": "https://github.com/ComPWA/policy/commit/a3bdaf2435adedf2e1cb8e9dcc2ba3d19f1979e4"
+        },
+        "date": 1791561739594,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5666516238657737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.024740831567758224",
+            "extra": "mean: 638.3040011999996 msec\nrounds: 5"
           }
         ]
       }
