@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791561740034,
+  "lastUpdate": 1791562413429,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1209,6 +1209,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.024740831567758224",
             "extra": "mean: 638.3040011999996 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "236312689a32ad00fdef6d738e80eb38e8687dbb",
+          "message": "BEHAVIOR: develop on Python 3.14 by default (#725)\n\n* BREAK: drop support for Python 3.10\n\n* BEHAVIOR: upgrade developer environment to Python 3.14",
+          "timestamp": "2026-10-09T18:13:06+02:00",
+          "tree_id": "ae678261b251538aa34191d8c04eaa380c8f50c6",
+          "url": "https://github.com/ComPWA/policy/commit/236312689a32ad00fdef6d738e80eb38e8687dbb"
+        },
+        "date": 1791562412735,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.213787549974412,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04968287413798666",
+            "extra": "mean: 451.7145288000009 msec\nrounds: 5"
           }
         ]
       }
