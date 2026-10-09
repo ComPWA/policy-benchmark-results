@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791567633701,
+  "lastUpdate": 1791567808225,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1302,6 +1302,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01629101277860649",
             "extra": "mean: 641.1419686000016 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d29eaacc4266ab05561ad5451cfc6d2a4430e73f",
+          "message": "BREAK: require `excluded-python-versions` to be an array (#734)\n\n* BREAK: require `excluded-python-versions` to be an array",
+          "timestamp": "2026-10-09T19:42:58+02:00",
+          "tree_id": "bd96dfd4ca11487563d46a7b7a39b4fe76dae61c",
+          "url": "https://github.com/ComPWA/policy/commit/d29eaacc4266ab05561ad5451cfc6d2a4430e73f"
+        },
+        "date": 1791567807749,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5898810289577718,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009255398794151956",
+            "extra": "mean: 628.9778805999958 msec\nrounds: 5"
           }
         ]
       }
