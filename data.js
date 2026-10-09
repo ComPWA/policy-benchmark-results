@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789462434842,
+  "lastUpdate": 1791548490299,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -899,6 +899,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004557328842385588",
             "extra": "mean: 431.9109248000018 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a77116ce59e05ac80dc5f69d05af73be56c9a1f9",
+          "message": "MAINT: replace `rtoml` with `tomli` and `tomli-w` (#716)",
+          "timestamp": "2026-10-09T14:21:06+02:00",
+          "tree_id": "0314b92b272931bf769b2c6b33225157e40b29df",
+          "url": "https://github.com/ComPWA/policy/commit/a77116ce59e05ac80dc5f69d05af73be56c9a1f9"
+        },
+        "date": 1791548490114,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.599372616534751,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011189714007450217",
+            "extra": "mean: 625.2451678000028 msec\nrounds: 5"
           }
         ]
       }
