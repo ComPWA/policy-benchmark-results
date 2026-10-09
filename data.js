@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791550948258,
+  "lastUpdate": 1791552612570,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -992,6 +992,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012719074522235583",
             "extra": "mean: 423.9524770000003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "204df3ff29c83ba224e1c1e8a3264256ffd909d8",
+          "message": "BEHAVIOR: upgrade every nested uv lock file (#718)",
+          "timestamp": "2026-10-09T15:29:46+02:00",
+          "tree_id": "286eb5ed5b5db26691eab8b1657228d27e85a4f3",
+          "url": "https://github.com/ComPWA/policy/commit/204df3ff29c83ba224e1c1e8a3264256ffd909d8"
+        },
+        "date": 1791552612337,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4599744742150829,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015256695305897142",
+            "extra": "mean: 684.9434820000013 msec\nrounds: 5"
           }
         ]
       }
