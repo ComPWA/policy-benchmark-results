@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791562413429,
+  "lastUpdate": 1791566754320,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1240,6 +1240,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04968287413798666",
             "extra": "mean: 451.7145288000009 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "25a8df0940d6de534e887b2d7f8b7f24c2d26d67",
+          "message": "FIX: fall back to latest supported dev Python (#729)\n\nFIX: fall back to latest supported developer Python version",
+          "timestamp": "2026-10-09T19:25:23+02:00",
+          "tree_id": "32d65fb93ff9a5602cbc391b005cb4df8a9cf328",
+          "url": "https://github.com/ComPWA/policy/commit/25a8df0940d6de534e887b2d7f8b7f24c2d26d67"
+        },
+        "date": 1791566753855,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.7331446150522458,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007915009236057547",
+            "extra": "mean: 576.9858967999937 msec\nrounds: 5"
           }
         ]
       }
