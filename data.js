@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791548490299,
+  "lastUpdate": 1791549363136,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -930,6 +930,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011189714007450217",
             "extra": "mean: 625.2451678000028 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3bbdc2ea44b047819ec534268236f12d098b336",
+          "message": "MAINT: upgrade lock files (#705)\n\n* DOC: update copyright in documentation footer\n* MAINT: fix `ty` diagnostics",
+          "timestamp": "2026-10-09T12:35:37Z",
+          "tree_id": "9dec471442e43a54ea96d2215bb8153a5dbb6ae9",
+          "url": "https://github.com/ComPWA/policy/commit/d3bbdc2ea44b047819ec534268236f12d098b336"
+        },
+        "date": 1791549362854,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4761746118825216,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007811804667533894",
+            "extra": "mean: 677.4266349999948 msec\nrounds: 5"
           }
         ]
       }
