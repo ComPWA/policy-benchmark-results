@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791567808225,
+  "lastUpdate": 1791623452550,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1333,6 +1333,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009255398794151956",
             "extra": "mean: 628.9778805999958 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "868570edc9c2e995f6a5dfe0843a33ea3f309097",
+          "message": "FEAT: allow configuring Dependabot package ecosystems (#737)",
+          "timestamp": "2026-10-10T11:10:26+02:00",
+          "tree_id": "fc6244ed7dba00beb7150e2e5d1cf5f5e5cb5991",
+          "url": "https://github.com/ComPWA/policy/commit/868570edc9c2e995f6a5dfe0843a33ea3f309097"
+        },
+        "date": 1791623452276,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.9999981976016201,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009219517112226903",
+            "extra": "mean: 500.0004506000011 msec\nrounds: 5"
           }
         ]
       }
