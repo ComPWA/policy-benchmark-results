@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791623452550,
+  "lastUpdate": 1792154039828,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1364,6 +1364,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009219517112226903",
             "extra": "mean: 500.0004506000011 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "18d2318e599467bad7f40900ad3484ea9400409a",
+          "message": "MAINT: remove obsolete `multiDiffEditor` setting (#741)",
+          "timestamp": "2026-10-16T14:33:36+02:00",
+          "tree_id": "8eba1efc8f36a4c588e9f633c78d0961c3eede29",
+          "url": "https://github.com/ComPWA/policy/commit/18d2318e599467bad7f40900ad3484ea9400409a"
+        },
+        "date": 1792154039311,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.620074325115631,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009870674825650523",
+            "extra": "mean: 381.6685619999987 msec\nrounds: 5"
           }
         ]
       }
