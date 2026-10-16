@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792154039828,
+  "lastUpdate": 1792155745431,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1395,6 +1395,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009870674825650523",
             "extra": "mean: 381.6685619999987 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec9a18d34e0ad2a0edc48117a04a333509903c20",
+          "message": "ENH: recommend Quarto VS Code extension (#743)",
+          "timestamp": "2026-10-16T15:01:18+02:00",
+          "tree_id": "f5d164f2b449af2bb5c0a73bcc47533a2d41c227",
+          "url": "https://github.com/ComPWA/policy/commit/ec9a18d34e0ad2a0edc48117a04a333509903c20"
+        },
+        "date": 1792155745049,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.9986285347038606,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015220308216934169",
+            "extra": "mean: 500.3431016000036 msec\nrounds: 5"
           }
         ]
       }
