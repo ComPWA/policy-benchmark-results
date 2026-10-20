@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792155745431,
+  "lastUpdate": 1792506364229,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1426,6 +1426,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015220308216934169",
             "extra": "mean: 500.3431016000036 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3da5205ad5658860012b5ba08ac3a14a85d51b69",
+          "message": "ENH: preserve custom jobs in the CI workflow (#746)\n\n* ENH: apply `keep-workflow` to all managed workflows",
+          "timestamp": "2026-10-20T16:25:36+02:00",
+          "tree_id": "005927cccb0143a7c8410c772ef93ce5ebbd9850",
+          "url": "https://github.com/ComPWA/policy/commit/3da5205ad5658860012b5ba08ac3a14a85d51b69"
+        },
+        "date": 1792506363773,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.135865566338435,
+            "unit": "iter/sec",
+            "range": "stddev: 0.026675945328540198",
+            "extra": "mean: 468.1942608000014 msec\nrounds: 5"
           }
         ]
       }
