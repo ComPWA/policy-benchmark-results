@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792506364229,
+  "lastUpdate": 1792657503904,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1457,6 +1457,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.026675945328540198",
             "extra": "mean: 468.1942608000014 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "351a1ccf7ddb5f5a5979717b9ec6758ee8a99db5",
+          "message": "ENH: ignore temporary nbQA files (#748)\n\n* MAINT: extract shared helper for adding .gitignore patterns",
+          "timestamp": "2026-10-22T10:24:36+02:00",
+          "tree_id": "60193dc676ccfe2b770c7096e03b9727113a6325",
+          "url": "https://github.com/ComPWA/policy/commit/351a1ccf7ddb5f5a5979717b9ec6758ee8a99db5"
+        },
+        "date": 1792657503554,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5314559811931858,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006572500664596235",
+            "extra": "mean: 652.9733876000023 msec\nrounds: 5"
           }
         ]
       }
