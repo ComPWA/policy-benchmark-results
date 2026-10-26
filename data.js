@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793010466447,
+  "lastUpdate": 1793033910484,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1519,6 +1519,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.011844813205637498",
             "extra": "mean: 653.2281643999994 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b631e2e31ad03718b003cd853395cd4286b0d56",
+          "message": "FIX: avoid empty Poe group headers when migrating tasks (#754)",
+          "timestamp": "2026-10-26T17:58:04+01:00",
+          "tree_id": "3b797754f26e41593f0c8ea2808e5bc6f8540187",
+          "url": "https://github.com/ComPWA/policy/commit/3b631e2e31ad03718b003cd853395cd4286b0d56"
+        },
+        "date": 1793033909544,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.9937672133362736,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04658399802048362",
+            "extra": "mean: 501.5630678000008 msec\nrounds: 5"
           }
         ]
       }
