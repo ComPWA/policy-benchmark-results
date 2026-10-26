@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792657503904,
+  "lastUpdate": 1793010466447,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1488,6 +1488,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006572500664596235",
             "extra": "mean: 652.9733876000023 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "477e6b30485caad28d17546920af4f7fc7779fe1",
+          "message": "ENH: use native uv support on Read the Docs (#750)\n\n* ENH: fail Sphinx builds on warnings",
+          "timestamp": "2026-10-26T11:27:22+01:00",
+          "tree_id": "d4140993db137c0155a67d96d9b41cb2cfd23250",
+          "url": "https://github.com/ComPWA/policy/commit/477e6b30485caad28d17546920af4f7fc7779fe1"
+        },
+        "date": 1793010466227,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5308586715922088,
+            "unit": "iter/sec",
+            "range": "stddev: 0.011844813205637498",
+            "extra": "mean: 653.2281643999994 msec\nrounds: 5"
           }
         ]
       }
