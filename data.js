@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793033910484,
+  "lastUpdate": 1793042449300,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1550,6 +1550,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04658399802048362",
             "extra": "mean: 501.5630678000008 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bae1fd43347c3481d250d3a0aae4600bda2efb3c",
+          "message": "ENH: add `linkcheck` to the `all` task (#756)",
+          "timestamp": "2026-10-26T20:20:21+01:00",
+          "tree_id": "36643c8b64a084fb44a00d51d8f87a2c47a72d40",
+          "url": "https://github.com/ComPWA/policy/commit/bae1fd43347c3481d250d3a0aae4600bda2efb3c"
+        },
+        "date": 1793042448879,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.566200550138673,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018478929436424082",
+            "extra": "mean: 638.4878359999675 msec\nrounds: 5"
           }
         ]
       }
