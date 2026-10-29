@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793042449300,
+  "lastUpdate": 1793277231819,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1581,6 +1581,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018478929436424082",
             "extra": "mean: 638.4878359999675 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b93e26915179cda85978cd2cff822ca30bfd0db7",
+          "message": "DX: recommend GitHub Pull Requests extension (#762)\n\n* MAINT: pin pytest below 9.2 for pytest-benchmark",
+          "timestamp": "2026-10-29T13:33:28+01:00",
+          "tree_id": "ad98ccdfd066fb58905871d3fa7a6aec8ea42879",
+          "url": "https://github.com/ComPWA/policy/commit/b93e26915179cda85978cd2cff822ca30bfd0db7"
+        },
+        "date": 1793277231492,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.3599716720139567,
+            "unit": "iter/sec",
+            "range": "stddev: 0.020724758891552918",
+            "extra": "mean: 423.73389979999985 msec\nrounds: 5"
           }
         ]
       }
