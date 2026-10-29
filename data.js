@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793277231819,
+  "lastUpdate": 1793317043370,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1612,6 +1612,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.020724758891552918",
             "extra": "mean: 423.73389979999985 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "13b288485d06073a8a085588001fe63c3d602f57",
+          "message": "MAINT: render settings with sphinx-config-schema (#763)\n\n* DX: add docstrfmt hook and configuration\n* DX: check links with lychee\n* DX: remove Rewrap extension from recommendations\n* DX: run local hooks through uv\n* MAINT: clean up intersphinx links and inventories\n* MAINT: upgrade lock files",
+          "timestamp": "2026-10-30T00:36:55+01:00",
+          "tree_id": "7649b0e33ec50e881be66553f40cd14c7ceeb4ba",
+          "url": "https://github.com/ComPWA/policy/commit/13b288485d06073a8a085588001fe63c3d602f57"
+        },
+        "date": 1793317042877,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5434027523459288,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01362395928604094",
+            "extra": "mean: 647.9190208000006 msec\nrounds: 5"
           }
         ]
       }
