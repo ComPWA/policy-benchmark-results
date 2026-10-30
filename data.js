@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793317043370,
+  "lastUpdate": 1793359863149,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1643,6 +1643,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01362395928604094",
             "extra": "mean: 647.9190208000006 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dec68d58fad09ae280e6be5b09c966ebc986f1bc",
+          "message": "MAINT: update template actions with Renovate (#767)\n\n* FIX: do not wrap long lines when writing YAML files",
+          "timestamp": "2026-10-30T12:30:35+01:00",
+          "tree_id": "ef33290de8328f1d4ee3f6224cc5fe51cb717478",
+          "url": "https://github.com/ComPWA/policy/commit/dec68d58fad09ae280e6be5b09c966ebc986f1bc"
+        },
+        "date": 1793359862613,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6289297458951633,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006930247140293946",
+            "extra": "mean: 613.900017800006 msec\nrounds: 5"
           }
         ]
       }
