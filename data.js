@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793359863149,
+  "lastUpdate": 1793373101593,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1674,6 +1674,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006930247140293946",
             "extra": "mean: 613.900017800006 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "515332484caddbcde2a6cd3867a27ea569c46825",
+          "message": "ENH: remove SchemaStore-covered yaml.schemas (#769)",
+          "timestamp": "2026-10-30T16:11:17+01:00",
+          "tree_id": "14d94141cd2fbfda4743a040dfa1558cdff2a4d8",
+          "url": "https://github.com/ComPWA/policy/commit/515332484caddbcde2a6cd3867a27ea569c46825"
+        },
+        "date": 1793373101218,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.397568267727086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009271556339567198",
+            "extra": "mean: 417.0892706000018 msec\nrounds: 5"
           }
         ]
       }
