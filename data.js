@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793607130306,
+  "lastUpdate": 1793615702495,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1736,6 +1736,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010702736940899895",
             "extra": "mean: 681.0070108000004 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17ee35d8f301d030ced5be27418ed6821427f50c",
+          "message": "FEAT: migrate `coverage` floors to config (#774)\n\n* BEHAVIOR: move Codecov project target to coverage `fail_under`\n* MAINT: remove default settings from `codecov.yml`",
+          "timestamp": "2026-11-02T11:34:28+01:00",
+          "tree_id": "b44a99de95c048c865672331f696bb61b5cbb12c",
+          "url": "https://github.com/ComPWA/policy/commit/17ee35d8f301d030ced5be27418ed6821427f50c"
+        },
+        "date": 1793615702278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3527774570244775,
+            "unit": "iter/sec",
+            "range": "stddev: 0.021017771125090026",
+            "extra": "mean: 739.2198877999974 msec\nrounds: 5"
           }
         ]
       }
