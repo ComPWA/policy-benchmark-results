@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793615702495,
+  "lastUpdate": 1793631189522,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1767,6 +1767,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.021017771125090026",
             "extra": "mean: 739.2198877999974 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a23e45212756cfa4ee960410a8d8c1ea93dccfc6",
+          "message": "FEAT: install `docstrfmt` in Python repositories (#772)",
+          "timestamp": "2026-11-02T15:52:40+01:00",
+          "tree_id": "5535ee99f1cc8623beba2b1ffe44967019a0717c",
+          "url": "https://github.com/ComPWA/policy/commit/a23e45212756cfa4ee960410a8d8c1ea93dccfc6"
+        },
+        "date": 1793631189207,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5026012007212821,
+            "unit": "iter/sec",
+            "range": "stddev: 0.013255933162295267",
+            "extra": "mean: 665.5125788000021 msec\nrounds: 5"
           }
         ]
       }
