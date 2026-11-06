@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793631189522,
+  "lastUpdate": 1793960369350,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1798,6 +1798,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.013255933162295267",
             "extra": "mean: 665.5125788000021 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2f63e820f9a1794d07fa7c43a556c4882a6eac27",
+          "message": "FIX: restore Ruff hook file type defaults (#779)\n\n* MAINT: align test group names with tested functions",
+          "timestamp": "2026-11-06T11:19:00+01:00",
+          "tree_id": "335f62de44a8207295c401676024ec8b67c4a6c7",
+          "url": "https://github.com/ComPWA/policy/commit/2f63e820f9a1794d07fa7c43a556c4882a6eac27"
+        },
+        "date": 1793960368810,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.530027479948391,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00954705507326289",
+            "extra": "mean: 653.5830324000003 msec\nrounds: 5"
           }
         ]
       }
