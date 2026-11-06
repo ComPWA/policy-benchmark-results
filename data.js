@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793975819989,
+  "lastUpdate": 1793978788719,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1891,6 +1891,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012904153643414377",
             "extra": "mean: 466.5792342000003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "845cdcf9862bd7bfec57a18c769b3ef4faa33143",
+          "message": "ENH: move ty and Ruff dependencies into dev (#785)\n\n* BREAK: make the has_dependency config argument positional-only",
+          "timestamp": "2026-11-06T16:25:59+01:00",
+          "tree_id": "d48951e3bf6628ed07107d29e01e1498657b8430",
+          "url": "https://github.com/ComPWA/policy/commit/845cdcf9862bd7bfec57a18c769b3ef4faa33143"
+        },
+        "date": 1793978788421,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4240633294724787,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015975997243732096",
+            "extra": "mean: 702.2159613999988 msec\nrounds: 5"
           }
         ]
       }
