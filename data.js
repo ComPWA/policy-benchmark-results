@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793978788719,
+  "lastUpdate": 1793997508611,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1922,6 +1922,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015975997243732096",
             "extra": "mean: 702.2159613999988 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9615c42345af074fc7e17b688b2faaae31b6ddd3",
+          "message": "ENH: consolidate VS Code language formatters (#789)",
+          "timestamp": "2026-11-06T21:38:00+01:00",
+          "tree_id": "236b94b02f4f492424091cfbaff68728382451e0",
+          "url": "https://github.com/ComPWA/policy/commit/9615c42345af074fc7e17b688b2faaae31b6ddd3"
+        },
+        "date": 1793997508310,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4153479383281433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0061265768665915345",
+            "extra": "mean: 706.5400478000015 msec\nrounds: 5"
           }
         ]
       }
