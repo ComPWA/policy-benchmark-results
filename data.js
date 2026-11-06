@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793997508611,
+  "lastUpdate": 1794004473321,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1953,6 +1953,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0061265768665915345",
             "extra": "mean: 706.5400478000015 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be0fe55729e09531e6838ecf258d66de73f8ae78",
+          "message": "BEHAVIOR: enforce a shared lychee configuration (#752)",
+          "timestamp": "2026-11-06T23:34:09+01:00",
+          "tree_id": "00ab57f7676511112ae85a254ae9787faaa030a2",
+          "url": "https://github.com/ComPWA/policy/commit/be0fe55729e09531e6838ecf258d66de73f8ae78"
+        },
+        "date": 1794004472780,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.985299399536111,
+            "unit": "iter/sec",
+            "range": "stddev: 0.010698955601934384",
+            "extra": "mean: 503.70236360000007 msec\nrounds: 5"
           }
         ]
       }
