@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793960369350,
+  "lastUpdate": 1793970333376,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1829,6 +1829,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00954705507326289",
             "extra": "mean: 653.5830324000003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8c1bd795141967c40118cf421c70f82ffeb6c5aa",
+          "message": "MAINT: tighten collection parameter types (#781)\n\n* DOC: link collection aliases and resolve Sphinx references",
+          "timestamp": "2026-11-06T14:05:02+01:00",
+          "tree_id": "6cad74abe4352a326b5baa67476b2ffe91c60beb",
+          "url": "https://github.com/ComPWA/policy/commit/8c1bd795141967c40118cf421c70f82ffeb6c5aa"
+        },
+        "date": 1793970332920,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4564746973280667,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014957860011980935",
+            "extra": "mean: 686.5893392000017 msec\nrounds: 5"
           }
         ]
       }
