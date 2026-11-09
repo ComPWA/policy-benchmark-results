@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794232968997,
+  "lastUpdate": 1794238237670,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2139,6 +2139,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.018376469574759986",
             "extra": "mean: 579.0611546000022 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04f3f7eb0d47bcdb0192587f37a115730ec3b0c8",
+          "message": "FEAT: support the shared `autofix.ci` workflow (#797)",
+          "timestamp": "2026-11-09T16:30:11+01:00",
+          "tree_id": "cd90b40b9ebe966a3eccb092b019830c70996480",
+          "url": "https://github.com/ComPWA/policy/commit/04f3f7eb0d47bcdb0192587f37a115730ec3b0c8"
+        },
+        "date": 1794238237466,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5079216540944251,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006946283250141395",
+            "extra": "mean: 663.164427199996 msec\nrounds: 5"
           }
         ]
       }
