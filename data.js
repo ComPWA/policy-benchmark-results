@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794004473321,
+  "lastUpdate": 1794221855259,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -1984,6 +1984,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.010698955601934384",
             "extra": "mean: 503.70236360000007 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "89c97f27dfb94f313bad58cfb40c458528ac608b",
+          "message": "FIX: link Pixi badge to `pixi.prefix.dev` (#791)",
+          "timestamp": "2026-11-09T11:57:09+01:00",
+          "tree_id": "a942d68f029beb4b08319dfcc5cd1bfdba335eff",
+          "url": "https://github.com/ComPWA/policy/commit/89c97f27dfb94f313bad58cfb40c458528ac608b"
+        },
+        "date": 1794221855065,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.50670481881528,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009711087840536588",
+            "extra": "mean: 663.7000078000007 msec\nrounds: 5"
           }
         ]
       }
