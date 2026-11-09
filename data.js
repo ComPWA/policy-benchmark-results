@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794244017887,
+  "lastUpdate": 1794253366045,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2232,6 +2232,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012854581543769266",
             "extra": "mean: 694.0032138000021 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f99ada4c0dd1467bd29f150f0a5cb4eb7736ad5",
+          "message": "FIX: support Typer 0.29 runner label options (#803)",
+          "timestamp": "2026-11-09T20:42:17+01:00",
+          "tree_id": "b97a34123dec71d87631d9ec7a7771b1944f8297",
+          "url": "https://github.com/ComPWA/policy/commit/5f99ada4c0dd1467bd29f150f0a5cb4eb7736ad5"
+        },
+        "date": 1794253365688,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4512741694209697,
+            "unit": "iter/sec",
+            "range": "stddev: 0.019052877551259992",
+            "extra": "mean: 689.0496785999993 msec\nrounds: 5"
           }
         ]
       }
