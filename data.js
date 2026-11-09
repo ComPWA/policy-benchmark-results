@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794229286188,
+  "lastUpdate": 1794232968997,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2108,6 +2108,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007894825510675064",
             "extra": "mean: 664.5785607999997 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "041a3f544831b0a2b59a7721d92bb1ce42062fe4",
+          "message": "BEHAVIOR: make Dependabot assignees configurable (#795)\n\n* DX: route reviews and Renovate assignees through CODEOWNERS",
+          "timestamp": "2026-11-09T15:02:17+01:00",
+          "tree_id": "b1512850e6f43f533c2af2a05533c487e905b319",
+          "url": "https://github.com/ComPWA/policy/commit/041a3f544831b0a2b59a7721d92bb1ce42062fe4"
+        },
+        "date": 1794232968396,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.7269333162069376,
+            "unit": "iter/sec",
+            "range": "stddev: 0.018376469574759986",
+            "extra": "mean: 579.0611546000022 msec\nrounds: 5"
           }
         ]
       }
