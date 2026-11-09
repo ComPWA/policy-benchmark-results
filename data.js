@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794222641118,
+  "lastUpdate": 1794227917051,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2046,6 +2046,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.012627481182219697",
             "extra": "mean: 688.4578129999966 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc0fa2429eb8e291a5475392515d00faca128ced",
+          "message": "DX: use the direnv `uv layout` (#739)\n\n* DX: run direnv check on uv.lock changes\n* DX: run uv lock when uv.lock is not committed",
+          "timestamp": "2026-11-09T13:38:11+01:00",
+          "tree_id": "85922c8a14d834f2e9f161fd1925d8893a5c0a4f",
+          "url": "https://github.com/ComPWA/policy/commit/fc0fa2429eb8e291a5475392515d00faca128ced"
+        },
+        "date": 1794227916880,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.497253206494041,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00725659596325917",
+            "extra": "mean: 667.8897033999973 msec\nrounds: 5"
           }
         ]
       }
