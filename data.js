@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794241526014,
+  "lastUpdate": 1794244017887,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2201,6 +2201,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.04118483927769721",
             "extra": "mean: 753.4540533999987 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec6bd24906c0ac1e17cc2b9cc483192d1bd98623",
+          "message": "DX: use GitHub-style alerts in the documentation (#786)\n\n* DOC: link configuration keys to the schema documentation\n* DX: remove VS Code Live Share extension recommendation\n* DX: request reviews from the maintainers team",
+          "timestamp": "2026-11-09T18:06:25+01:00",
+          "tree_id": "10d0c297a4fb6c7edee538418b5d83281632eb4c",
+          "url": "https://github.com/ComPWA/policy/commit/ec6bd24906c0ac1e17cc2b9cc483192d1bd98623"
+        },
+        "date": 1794244016914,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.4409155175586552,
+            "unit": "iter/sec",
+            "range": "stddev: 0.012854581543769266",
+            "extra": "mean: 694.0032138000021 msec\nrounds: 5"
           }
         ]
       }
