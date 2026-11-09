@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794227917051,
+  "lastUpdate": 1794229286188,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2077,6 +2077,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00725659596325917",
             "extra": "mean: 667.8897033999973 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "70bcd011330ad4f1c7b55fc0df3cd78766228013",
+          "message": "FEAT: add options to set the runner images (#765)\n\n* ENH: validate runner labels and automate monthly updates\n* MAINT: update ComPWA/actions to v4.1.8",
+          "timestamp": "2026-11-09T14:00:57+01:00",
+          "tree_id": "c20a950bc22755c1765bcbea1f3a5840003ef44f",
+          "url": "https://github.com/ComPWA/policy/commit/70bcd011330ad4f1c7b55fc0df3cd78766228013"
+        },
+        "date": 1794229285763,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5047130000646274,
+            "unit": "iter/sec",
+            "range": "stddev: 0.007894825510675064",
+            "extra": "mean: 664.5785607999997 msec\nrounds: 5"
           }
         ]
       }
