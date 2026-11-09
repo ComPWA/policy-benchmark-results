@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794238237670,
+  "lastUpdate": 1794241526014,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2170,6 +2170,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006946283250141395",
             "extra": "mean: 663.164427199996 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60f503168d8d7ae307c19aa450d4c4ea896eb405",
+          "message": "FIX: add `docstrfmt` only if there are `.py` files (#799)",
+          "timestamp": "2026-11-09T17:24:53+01:00",
+          "tree_id": "821813ec34b4a883ded734d2cd6ae52289535cbc",
+          "url": "https://github.com/ComPWA/policy/commit/60f503168d8d7ae307c19aa450d4c4ea896eb405"
+        },
+        "date": 1794241525520,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.3272209439811897,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04118483927769721",
+            "extra": "mean: 753.4540533999987 msec\nrounds: 5"
           }
         ]
       }
