@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794253366045,
+  "lastUpdate": 1794330395345,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2263,6 +2263,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.019052877551259992",
             "extra": "mean: 689.0496785999993 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "92019cc2b12b4089d8506cd4f6b980b8f2123164",
+          "message": "FIX: keep Codecov project threshold (#805)\n\n* DX: remove `CODEOWNERS`",
+          "timestamp": "2026-11-10T18:06:01+01:00",
+          "tree_id": "8e7cd0a20e4c27f06fb9341de8a4c272fb6d04ab",
+          "url": "https://github.com/ComPWA/policy/commit/92019cc2b12b4089d8506cd4f6b980b8f2123164"
+        },
+        "date": 1794330392684,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6973271025410424,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01706008574323894",
+            "extra": "mean: 589.1616286000001 msec\nrounds: 5"
           }
         ]
       }
