@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794386897192,
+  "lastUpdate": 1794387395204,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2387,6 +2387,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.009425763325242894",
             "extra": "mean: 520.6951414000002 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "141b48278c5b1704cc922688fe9e8b70a82ebd42",
+          "message": "MAINT: run CD template PyPI job on Ubuntu 26.04 (#810)\n\n* DX: show failure tracebacks in `poe test`",
+          "timestamp": "2026-11-11T09:56:07+01:00",
+          "tree_id": "3f332e5bf717300ae8070fb91e9e220efaf7410b",
+          "url": "https://github.com/ComPWA/policy/commit/141b48278c5b1704cc922688fe9e8b70a82ebd42"
+        },
+        "date": 1794387394984,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6824064012470563,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01760713066545474",
+            "extra": "mean: 594.3867066000024 msec\nrounds: 5"
           }
         ]
       }
