@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794390394419,
+  "lastUpdate": 1794392095777,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2449,6 +2449,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0073068238952466585",
             "extra": "mean: 508.6982651999975 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64ea6a75230367a6512fd410a87979a82a2b5ec8",
+          "message": "BEHAVIOR: keep pre-commit.ci autofixes (#815)",
+          "timestamp": "2026-11-11T11:14:26+01:00",
+          "tree_id": "0cf8097beeb62279588b71a26c9e4e8b361291ee",
+          "url": "https://github.com/ComPWA/policy/commit/64ea6a75230367a6512fd410a87979a82a2b5ec8"
+        },
+        "date": 1794392095589,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.6737293683155086,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02112606739504294",
+            "extra": "mean: 597.468156399998 msec\nrounds: 5"
           }
         ]
       }
