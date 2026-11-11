@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794396173215,
+  "lastUpdate": 1794403363407,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2542,6 +2542,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.007822580127208866",
             "extra": "mean: 663.9633044000008 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f476a0870befc1a4ea266629dd39ef1e1f79cab",
+          "message": "FIX: remove empty dependency groups (#820)",
+          "timestamp": "2026-11-11T14:22:20+01:00",
+          "tree_id": "eb0bc9d77119d99bca0caf563d69d47777dd7c71",
+          "url": "https://github.com/ComPWA/policy/commit/3f476a0870befc1a4ea266629dd39ef1e1f79cab"
+        },
+        "date": 1794403363230,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5227319034380422,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006085899477269781",
+            "extra": "mean: 656.714420800003 msec\nrounds: 5"
           }
         ]
       }
