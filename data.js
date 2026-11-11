@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794387395204,
+  "lastUpdate": 1794390394419,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2418,6 +2418,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01760713066545474",
             "extra": "mean: 594.3867066000024 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4f8727e640307d983090b73f117d19049dff109c",
+          "message": "BEHAVIOR: drop lock workflow covered by Dependabot (#813)",
+          "timestamp": "2026-11-11T10:46:06+01:00",
+          "tree_id": "28b84da99db993996e40ecbbf327618bb1fbd084",
+          "url": "https://github.com/ComPWA/policy/commit/4f8727e640307d983090b73f117d19049dff109c"
+        },
+        "date": 1794390394098,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.9658018680422364,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0073068238952466585",
+            "extra": "mean: 508.6982651999975 msec\nrounds: 5"
           }
         ]
       }
