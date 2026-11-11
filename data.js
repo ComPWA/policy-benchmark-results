@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794330395345,
+  "lastUpdate": 1794384228084,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2294,6 +2294,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01706008574323894",
             "extra": "mean: 589.1616286000001 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e9b02aa23de9d6f5ea2b5923148f3e4c510ac37",
+          "message": "FIX: pin autofix.ci template to existing SHA (#807)\n\n* MAINT: remove redundant future import from Sphinx config\n* MAINT: set assignees and reviewers in Renovate configuration",
+          "timestamp": "2026-11-11T09:03:16+01:00",
+          "tree_id": "d78b79dc38a4d6bb82dd60b5a69e3c9326f3beed",
+          "url": "https://github.com/ComPWA/policy/commit/7e9b02aa23de9d6f5ea2b5923148f3e4c510ac37"
+        },
+        "date": 1794384227596,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.942351437431292,
+            "unit": "iter/sec",
+            "range": "stddev: 0.006580045832567348",
+            "extra": "mean: 514.8398898000011 msec\nrounds: 5"
           }
         ]
       }
