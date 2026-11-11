@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794384228084,
+  "lastUpdate": 1794385135802,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2325,6 +2325,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006580045832567348",
             "extra": "mean: 514.8398898000011 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6474afbac93555000c0cddbcb4d95d56288f2a1",
+          "message": "FIX: override silent mode of Mend Renovate app (#809)",
+          "timestamp": "2026-11-11T09:18:32+01:00",
+          "tree_id": "bb467adfe91ca6de59f854a98ec3224ed9a1b5b5",
+          "url": "https://github.com/ComPWA/policy/commit/f6474afbac93555000c0cddbcb4d95d56288f2a1"
+        },
+        "date": 1794385135474,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.302671519845314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.014641568670395837",
+            "extra": "mean: 434.2781814000013 msec\nrounds: 5"
           }
         ]
       }
