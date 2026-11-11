@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794385135802,
+  "lastUpdate": 1794386897192,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2356,6 +2356,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.014641568670395837",
             "extra": "mean: 434.2781814000013 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e0bf163940327be8ef1b9ecd293745f44525e057",
+          "message": "DX: combine major and minor Renovate updates (#811)\n\n* DX: prevent Renovate from rebasing automatically\n* DX: use MAINT commit type for GitHub Actions template updates",
+          "timestamp": "2026-11-11T08:47:54Z",
+          "tree_id": "f92bdfccae763f6f11149d20244b162bda7a6895",
+          "url": "https://github.com/ComPWA/policy/commit/e0bf163940327be8ef1b9ecd293745f44525e057"
+        },
+        "date": 1794386896992,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.9205095659454132,
+            "unit": "iter/sec",
+            "range": "stddev: 0.009425763325242894",
+            "extra": "mean: 520.6951414000002 msec\nrounds: 5"
           }
         ]
       }
