@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794403363407,
+  "lastUpdate": 1794469006900,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2573,6 +2573,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.006085899477269781",
             "extra": "mean: 656.714420800003 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "82d61606ac85883380e0c9ec0604ae180e7d2529",
+          "message": "ENH: upgrade Pluto notebook environments (#822)",
+          "timestamp": "2026-11-12T08:36:19+01:00",
+          "tree_id": "6edfd226193c050520b99afdaa70791c501bdd21",
+          "url": "https://github.com/ComPWA/policy/commit/82d61606ac85883380e0c9ec0604ae180e7d2529"
+        },
+        "date": 1794469006423,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.8858612536836286,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01426527407996089",
+            "extra": "mean: 530.2617030000022 msec\nrounds: 5"
           }
         ]
       }
