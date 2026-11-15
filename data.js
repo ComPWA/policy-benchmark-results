@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794757371403,
+  "lastUpdate": 1794764324957,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2635,6 +2635,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01692176988591248",
             "extra": "mean: 545.0629666000026 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4dadb9fbcb652d7106583aec4c0121a499d04f3e",
+          "message": "FIX: run the test suite on Windows (#826)\n\n* DX: enable the Windows CI job\n* FEAT: add option to enable a Windows test job",
+          "timestamp": "2026-11-15T18:38:17+01:00",
+          "tree_id": "c51df52a542377e6b27fc07373218918bbbd9ade",
+          "url": "https://github.com/ComPWA/policy/commit/4dadb9fbcb652d7106583aec4c0121a499d04f3e"
+        },
+        "date": 1794764324293,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.955533177233464,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0049797870969283484",
+            "extra": "mean: 511.36948820000185 msec\nrounds: 5"
           }
         ]
       }
