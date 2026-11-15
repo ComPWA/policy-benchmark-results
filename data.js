@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794764324957,
+  "lastUpdate": 1794769794073,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2666,6 +2666,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0049797870969283484",
             "extra": "mean: 511.36948820000185 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f73c3d2080049a3ec3b60143dc22e09af0a450e",
+          "message": "DX: avoid a compiler for PyYAML source builds (#829)",
+          "timestamp": "2026-11-15T20:09:33+01:00",
+          "tree_id": "50c1b58837d9c5dbcc1d4cd61b7d88b3e9ee79a5",
+          "url": "https://github.com/ComPWA/policy/commit/0f73c3d2080049a3ec3b60143dc22e09af0a450e"
+        },
+        "date": 1794769793728,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 2.377183484452889,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004678783351807546",
+            "extra": "mean: 420.66588740000054 msec\nrounds: 5"
           }
         ]
       }
