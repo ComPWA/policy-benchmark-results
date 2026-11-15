@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794469006900,
+  "lastUpdate": 1794757371403,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2604,6 +2604,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01426527407996089",
             "extra": "mean: 530.2617030000022 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ee3d2a940a2dcb3ce7eb7cb9f7a95f25c10c15f3",
+          "message": "FIX: read and write text files as UTF-8 with LF line endings (#824)\n\n* FIX: read and write text files as UTF-8\n\n* FIX: enforce LF line endings and UTF-8 on Windows\n\n* MAINT: apply automated fixes\n\n* FIX: write POSIX path to VS Code pinned workflows\n\n---------\n\nCo-authored-by: autofix-ci[bot] <114827586+autofix-ci[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-15T16:42:20+01:00",
+          "tree_id": "4599aa640309de45db8c9593b6e15c94f1c8035b",
+          "url": "https://github.com/ComPWA/policy/commit/ee3d2a940a2dcb3ce7eb7cb9f7a95f25c10c15f3"
+        },
+        "date": 1794757370868,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.8346504189007862,
+            "unit": "iter/sec",
+            "range": "stddev: 0.01692176988591248",
+            "extra": "mean: 545.0629666000026 msec\nrounds: 5"
           }
         ]
       }
