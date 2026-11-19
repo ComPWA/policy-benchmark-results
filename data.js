@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794769794073,
+  "lastUpdate": 1795080613753,
   "repoUrl": "https://github.com/ComPWA/policy",
   "entries": {
     "ComPWA policy benchmark results": [
@@ -2697,6 +2697,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.004678783351807546",
             "extra": "mean: 420.66588740000054 msec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29308176+redeboer@users.noreply.github.com",
+            "name": "Remco de Boer",
+            "username": "redeboer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a924f63958f353a36e15bafe1beee74974ce735",
+          "message": "ENH: upgrade tracked uv script locks (#831)",
+          "timestamp": "2026-11-19T10:29:45+01:00",
+          "tree_id": "08ef627e8ffde0a5148c4506fc153c85f55b896a",
+          "url": "https://github.com/ComPWA/policy/commit/1a924f63958f353a36e15bafe1beee74974ce735"
+        },
+        "date": 1795080613278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/test_check_dev_files.py::test_check_dev_files",
+            "value": 1.5153299980657438,
+            "unit": "iter/sec",
+            "range": "stddev: 0.008899590827976984",
+            "extra": "mean: 659.9222619999991 msec\nrounds: 5"
           }
         ]
       }
